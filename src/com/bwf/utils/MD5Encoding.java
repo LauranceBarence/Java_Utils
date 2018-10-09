@@ -2,7 +2,11 @@ package com.bwf.utils;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
-
+/**
+ * 对用户密码进行MD5加密
+ * @author admin
+ *
+ */
 public class MD5Encoding {
 	static MessageDigest md5;
 	static{
